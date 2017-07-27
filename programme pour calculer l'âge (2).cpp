@@ -15,7 +15,7 @@ cout << "Ecrivez une annee pour connaitre l age que vous aurez alors" << endl;
 int anneeFutur(0), ageFutur(0);
 cin >> anneeFutur;
 ageFutur = agePresent + (anneeFutur-2017);
-cout << "En " << anneeFutur << " vous aurez " << ageFutur << " ans" << endl;
+cout << "En " << anneeFutur << " vous aurez " << ageFutur << " ans" << endl; // Je pense que le programme est bien
 
 
 return 0;
