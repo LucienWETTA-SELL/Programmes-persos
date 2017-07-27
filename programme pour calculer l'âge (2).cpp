@@ -16,7 +16,7 @@ int anneeFutur(0), ageFutur(0);
 cin >> anneeFutur;
 ageFutur = agePresent + (anneeFutur-2017);
 cout << "En " << anneeFutur << " vous aurez " << ageFutur << " ans" << endl; // Je pense que le programme est bien
-
+cout << ageFutur - agePresent << endl;
 
 return 0;
 }
